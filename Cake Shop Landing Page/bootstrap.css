@@ -1,0 +1,261 @@
+.fa-brands {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 0;
+    color: black;
+    padding-left: 200px;
+    font-size: 30px;
+}
+
+.fa-brands:hover {
+    transition: 0.25s ease-in;    
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #00dbde;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;  
+}
+
+.nav-link:hover::after {
+    transform-origin: bottom left;
+    transform: scale(1);
+
+}
+
+#panel, #flip {
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color:white;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    border-radius: 25px;
+    }
+    #panel {
+    padding : 60px;
+    display: none;
+    background: linear-gradient(#d24af9,#2f80ed);
+    color: white;
+    font-size: larger;
+    }
+
+    #flip {
+      border: 1px solid black;
+      width: 150px;
+      margin-inline: 680px;
+    }
+
+
+
+    #flip::selection{
+        color: purple;
+        background-color:powderblue;
+    }
+
+    #panel::selection{
+        background-color: purple;
+        color: white;
+
+    }
+    
+    h1 {
+        text-align:center ; 
+        margin-top: -50px; 
+        font-family:'Ms Madi'; 
+        color: white;
+        letter-spacing: 5px;    
+        background: linear-gradient(#00dbde, #fc00ff);
+        border-radius: 10px;
+        
+    }
+
+    .carousel {
+        width:640px;
+        height:560px;
+        margin: auto;
+      }
+
+      .card-details ul {
+        background: linear-gradient(#30496b,#000000);
+        border-radius: 35px;
+      }
+
+
+      .card-heading {
+        color: black;
+        font-family: 'Ms Madi';
+        font-size: 56px;
+        font-weight: 400;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px;
+        font-weight: 500;
+      }
+
+      .card-details ul li{
+    
+        list-style: none;
+        display: inline-block;
+        padding: 20px;
+        border-radius: 20px;
+        margin-left: 25px;
+      }
+
+      .card-details ul li img {
+        border: 4px solid palevioletred;
+        border-radius: 20px;
+      }
+
+      .card-details ul li img:hover{
+        opacity: 0.5;
+        transition: 0.25s;
+      }
+
+      .card-details ul li .title {
+        
+        color: white;
+        display: block;
+        font-family:cursive;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+      .card-details {
+        background-color: white;
+        border-radius: 70px;
+        padding-bottom: 80px;
+
+      }
+
+      #footer-sub{
+        background: linear-gradient(#30496b,#30b8d2);
+        border-top: 1px solid #dbdbdb;
+    }
+    
+    #footer-main{
+        background-color: #012b72;
+    }
+    
+    #footer-sub h5{
+        color:white;
+        margin-top: 25px;
+    }
+    
+    #footer-sub ul{
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    #footer-sub hr{
+        margin: 5px;
+    
+    }
+    
+    #footer-sub ul li{
+    margin-left: -38px;
+    }
+    
+    #footer-sub a:link {
+        text-decoration: none;
+        color:#565656;
+        font-size: 14px;
+    }
+    
+    #footer-sub a:visited {
+        text-decoration: none;
+        color:white;
+    }
+    
+    
+    #footer-sub a:hover {
+        text-decoration: none;
+        color: green;
+    }
+    
+    
+    #footer-sub a:active {
+        text-decoration: none;
+        color:#565656;
+    }
+    
+    .vertical-line{
+        border-right: 1px solid #dbdbdb;
+        margin: 8px;
+        padding: 0px;
+    }
+    
+   
+    
+    #sub-two{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #sub-two .vertical-line h4{
+        color:#6d6c6c;
+    }
+    
+    
+    #footer-main ul{
+        list-style: none;
+    }
+    
+    #footer-main ul li{
+        float:left;
+        text-decoration: none;
+        padding-left: 15px;
+        margin-top: 17px;
+    }
+    
+    #footer-main a:link {
+        color:white;
+        font-size: 12px;
+    }
+    
+    #footer-main a:visited {
+        color:white;
+    }
+    
+    
+    #footer-main a:hover {
+        text-decoration: none;
+        color: #00b9f5;
+    }
+    
+    
+    #footer-main a:active {
+        color:white;
+    }
+    
+    .glyphicon-search{
+        font-size: 20px;
+    }
+    
+    #social-menu{
+        float: right;
+       margin-right: 60px;
+    }
+    
+    #side-padding{
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+
+ 
