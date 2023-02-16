@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Parisienne&display=swap');
+
+ html,body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar {
+    display: grid;
+    background-color: black;
+    color: white;
+    height: 120px;
+    font-family: "Parisienne";
+}
+
+.blog h1 {
+    text-shadow: 0px 5px 5px black;
+    margin-left: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.blog h1:hover {
+    z-index: 2;
+    transform: scaleY(1.2);
+}
+
+.name h5 {
+    font-family: "Cormorant Garamond";
+    margin-top: -25px;
+    font-size: 15px;
+    position: relative;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+
+}
+
+.name h5:hover {
+    z-index: 3;
+    transform: scale(1.3);
+}
+
+.list ul li {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.list ul li a:hover {
+    opacity: 1;
+    text-decoration-line:overline;
+}
+
+
+.intro {
+    background-color: gray;
+    height: 600px;
+    color: white;
+    transition: 1s;
+
+}
+
+.intro h2 {
+
+    font-family: "oswald";
+    letter-spacing: 2px;
+    font-size: 65px;
+    margin-top: 0px;
+    position: absolute;
+    transition: 1s;
+    color: black;
+    
+}
+
+.intro h2:hover {
+    color: white;
+    transform: translateX(20px);
+}
+
+.intro p {
+    font-style: italic;
+    font-size: large;
+
+    line-height: 30px;
+    margin-top: 170px;
+    position: absolute;
+    color: whitesmoke;
+    display: inline-block;
+    transition: 1s;
+    line-height: 35px;
+    
+}
+
+.intro p:hover {
+    z-index: 2;
+    transform: translateX(30px);
+
+}
+
+h2,
+p {
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.image1 img {
+    height: 500px;
+    display: block;
+    width: 780px;
+    float: right;
+    position: relative;
+    top: -555px;
+    right: 90px;
+    border-radius: 20px;
+    transition: 1s;
+    border: 2px solid white;
+}
+
+.image1 img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.mumbai {
+    position: absolute;
+    height: 710px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: block;
+    font-family:"Cormorant Garamond";
+
+}
+
+.mumbai p , h1 {
+    display: flex;
+    justify-content: center;
+    transition: 1s ease-in-out;
+
+}
+
+.mumbai h1:hover {
+    text-decoration-line: underline;
+}
+
+.mumbai h1 {
+    font-size: 40px ;
+    padding-top: 10px;;
+}
+
+.mumbai p {
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.mumbai img {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    overflow: hidden;
+
+}
+
+.mumbai img:hover {
+    transform: scale(0.9);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px  white;
+}
+
+.back {
+    background-color: antiquewhite;
+    transition: 0.8s;
+}
+
+.back:hover {
+    transition: 0.8s;
+}
+
+.monkey {
+    margin: 120px ;
+    margin-top: 50pc;
+    background-color: ivory;
+    box-shadow: 0px 7px 10px 10px black;
+    height: 750px;
+    
+}
+
+
+#mon {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    padding: 90px 0px 0px 30px;
+    transition: 1s;
+
+}
+
+
+.monkey p {
+  position: relative;
+    padding-left: 790px;
+    bottom: -60px;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+}
+
+.lonavala1 {
+    display: grid;
+    place-content: center;
+    background-color: antiquewhite;
+    
+}
+
+.lonavala1 #scene {
+    height: 400px;
+    width: 152%;
+    position: relative;
+    top: -20%;
+    right: 220px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.9s ease-in;
+}
+
+.lonavala1 #scene:hover {
+    transition: 0.6s ease-in;
+    transform: scale(1.1);
+    box-shadow: 0px 13px 20px black;
+}
+
+.gallery {
+    display: flex;
+    height: 600px;
+    
+    object-fit: contain;
+   
+
+}
+
+.gallery__image {
+    min-width: 0;
+    flex: 1 1 ;
+    object-fit:cover;
+    transition: .5s;
+    opacity: .5;
+    border: 2px solid white;
+   
+}
+
+.gallery__image:hover {
+    flex: 1 1 400px;
+    opacity: 1;
+}
+
+.para {
+    display: grid;
+    place-content: center;
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    top: -30%;
+    
+}
+
+.para strong {
+    color:darkgoldenrod;
+    font-size: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -60px
+}
+
+.contact span {
+    padding: 50px;
+    font-size: 80px;
+    transition: 0.8s;
+    color: black;
+    
+}
+
+.contact span:hover {
+    transition: 1s;
+    scale: 1.9;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: none;
+}
