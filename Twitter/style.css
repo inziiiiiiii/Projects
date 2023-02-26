@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+    background-color: rgb(39, 45, 51);
+    transition: 1s all;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+    position: absolute;
+    top: 9%;
+    background-color: black;
+    height: 650px;
+    width: 600px;
+    border-style: solid none;
+    border-radius: 20px;
+}
+
+.heading {
+    position: absolute;
+    top: 10%;
+    left: 27%;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#heading-logo {
+    position: absolute;
+    left: 45%;
+    top: 2%
+}
+
+#heading-logo:hover {
+    background-color: rgb(29, 155, 240);
+    transition: 1s;
+}
+
+
+
+#google,
+#apple {
+    border-radius: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+    margin: 8px;
+    padding: 8px;
+    position: relative;
+    top: 130px;
+    left: 23%;
+}
+
+#google:hover,
+#apple:hover {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    transition: 0.7s;
+
+}
+
+.fa-apple {
+    color: black;
+    position: absolute;
+    top: 32.2%;
+    z-index: 1;
+    right: 63%;
+    font-size: 20px;
+}
+
+.fa-google {
+    color: black;
+    top: 23.6%;
+    position: absolute;
+    right: 63%;
+    font-size: 16px;
+}
+
+.form h5 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 47%;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+#place,
+#next,
+#forgot {
+    position: relative;
+    margin: 12px;
+    width: 50%;
+    left: 22%;
+}
+
+.end {
+    margin-top: 140px;
+}
+
+#place {
+    padding: 12px;
+    color: white;
+    background-color: black;
+    border: solid thin silver;
+    border-radius:5px ;
+   
+}
+
+input:focus {
+
+    outline: 2.7px solid rgb(29, 155, 240);
+    border-radius: 5px;
+}
+
+
+
+#next {
+    background-color: white;
+    color: black;
+    font-family: "Roboto";
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#next:hover {
+    background-color: rgb(29, 155, 240);
+    transition: 0.7s;
+}
+
+#forgot {
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    border: 1px solid silver;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer  {
+    color: gray;
+    position: absolute;
+    left: 30%;
+    top: 80%;
+}
+
+.footer a {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+    font-family: "Roboto";
+}
